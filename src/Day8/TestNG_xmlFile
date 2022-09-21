@@ -1,0 +1,10 @@
+What is TestNG.xml file and what can we achieve?
+
+ TestNG.xml file is a configuration file that helps us to organize our tests.
+
+    1. Able to run multiple tests, classes etc
+    2. Parallel testing, we will save time by using it
+    3. We can do cross browser testing, chrome or firefox or safari etc.
+    4. We can parameterize our tests like browser, username, password etc.
+
+    - To open an TestNG.xml file go and create a file, and add .xml at the end of it.

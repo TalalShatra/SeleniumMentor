@@ -1,0 +1,57 @@
+<suite name="Automation Practice Functionalities">
+    <groups>
+        <run>
+            <include name="Regression"/>
+        </run>
+    </groups>
+
+    <test name="Test 'My order has not been arrived' on Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name ="message" value = "My order has not been arrived"></parameter>
+        <classes>
+            <class name="Day9.Tests.ContactUsFunctionalityTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="Test 'My order has not been arrived' on Firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name ="message" value = "My order has not been arrived"></parameter>
+        <classes>
+            <class name="Day9.Tests.ContactUsFunctionalityTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test 'can you send me the tracking number' on Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name ="message" value = "can you send me the tracking number"></parameter>
+        <classes>
+            <class name="Day9.Tests.ContactUsFunctionalityTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test 'can you send me the tracking number' on Firefox">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name ="message" value = "can you send me the tracking number"></parameter>
+        <classes>
+            <class name="Day9.Tests.ContactUsFunctionalityTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test 'I forgot my password' on Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name ="message" value = "I forgot my password"></parameter>
+        <classes>
+            <class name="Day9.Tests.ContactUsFunctionalityTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test 'I forgot my password' on Firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name ="message" value = "I forgot my password"></parameter>
+        <classes>
+            <class name="Day9.Tests.ContactUsFunctionalityTest"></class>
+        </classes>
+    </test>
+
+</suite>

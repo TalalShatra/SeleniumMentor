@@ -1,0 +1,21 @@
+<suite name = "Suite 1">
+
+    <test name = "Test1" >
+
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name  = "Day8.Tests.TestClassForTextInput" ></class>
+        </classes>
+
+    </test>
+
+    <test name = "Test2" >
+
+        <parameter name = "browser" value = "firefox" />
+        <classes>
+            <class name = "Day8.Tests.TestClassForTextInput"></class>
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,22 @@
+<suite name="Demo Web Shop Functionalities">
+
+    <test name = "Test valid login credentials">
+        <classes>
+            <class name = "Day10.Test.LoginFunctionalityPositiveScenario"></class>
+        </classes>
+    </test>
+
+    <test name = "Test invalid and incorrect Credentials">
+        <classes>
+            <class name ="Day10.Test.LoginFunctionalityNegativeScenario"></class>
+        </classes>
+    </test>
+
+    <test name = "Successfully Place Order Test">
+        <classes>
+            <class name = "Day10.Test.PlaceAnOrderFunctionality">
+            </class>
+        </classes>
+    </test>
+
+</suite>
